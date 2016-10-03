@@ -1,0 +1,11 @@
+commit 62ceabc44eec2257b7646511ce6937929f02e7fb
+Author: jeshuastep <maqundbullœhotmail.com>
+Date:   Fri Sep 2 11:40:07 2016 -0600
+
+    cambio en mi readme.txt
+
+commit bcf12a31d33391726ac574b361361115f5a521ca
+Author: jeshuastep <maqundbullœhotmail.com>
+Date:   Fri Sep 2 11:28:14 2016 -0600
+
+    comit incial con readme.txt

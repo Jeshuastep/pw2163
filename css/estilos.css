@@ -1,0 +1,75 @@
+/*Selectores*/
+/*1.-Etiquetas*/
+/*2.-Identificadores (IDS) */
+/*3.-Clases*/
+
+body   /*selector  - etiqueta*/
+{
+
+	font-size: 16px; /*tamaño de fuente estàndar*/
+	/*atributo:valor;*/
+	border: 1px solid blue;
+	border-radius: 5px;
+	max-width: 1024px;
+	margin: 0px auto;
+
+
+}
+
+footer
+{
+	font-size: .72em; /*medida de la tipografía*/
+	border: 1px solid blue;
+	text-align: center; /*se alinea todo el texto*/
+}
+
+header
+{
+
+background: honeydew;
+border:1px solid red;
+color: YellowGreen; /*letra*/
+/*padding: 0px 0px 20px 0px;*/
+text-align: center; /*alineaciòn*/
+
+}
+header img
+{
+	margin: -60px 15px 0px 0px;
+	float: right;
+	width: 100px; /*ancho de la imagen*/
+
+}
+header nav ul li{
+
+	/*border: 1px solid yellow;*/
+	background: green;	/*color de fondo*/
+	border-radius: 5px; /*bordes redondeados*/
+	box-shadow: 3px 3px; /*sombra de los botones*/
+	display: inline-block; /*rompe modelo de caja*/
+	padding: 3px 10px;  /*trabajando con los botones*/
+	margin: 0px 10px 50px 10px;	/*separando cajas*/
+	width: 80px; 		/*ancho del boton*/
+}
+
+header nav ul li:hover{ 
+
+	background: MediumSeaGreen; /*color de fondo del sombreado*/
+	color: green;
+
+	
+}
+
+main
+{
+
+	margin: 20px 0px 0px 0px;
+}
+
+main section article
+{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
