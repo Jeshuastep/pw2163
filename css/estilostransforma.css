@@ -1,0 +1,62 @@
+article{
+
+	background: greenyellow; /*fondo*/
+	border: 2px solid black; /*borde*/
+	color: black; /*color de la letra*/
+	margin: 20px 5px;  /*margen exterior*/
+	padding: 15px;  /*margen interior*/
+	text-align: center; /*alineacion*/
+	-moz-transition:all 1s linear;
+	-webkit-transition:all 1s linear;
+	-o-transition:all 1s linear;
+	-ms-transition:all 1s linear;
+	width: 400px;  /*ancho de la caja*/
+}
+
+article p 
+{
+
+	font: 30px Tahoma;
+	width: 100%;
+	font-weight: bold;
+}
+
+/*article:hover{
+
+	height: 400px;
+	width: 800px;
+}*/
+
+/*article:hover
+{
+
+	background: black;
+	color: greenyellow;
+	transform: scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+  }*/
+
+ /* article:hover
+{
+
+	background: black;
+	color: greenyellow;
+	-moz-transform:skew(10deg,10deg);
+	-ms-transform:skew(10deg,10deg);
+	-o-transform:skew(10deg,10deg);
+	-webkit-transform:skew(10deg,-10deg);
+  }*/
+
+   article:hover
+{
+
+	background: black;
+	color: greenyellow;
+	-moz-transform:translate(150px,150px) rotate(360deg) scale(1.15) skew(10deg,10deg);
+	-ms-transform:translate(150px,150px) rotate(360deg) scale(1.15) skew(10deg,10deg);
+	-o-transform:translate(150px,150px) rotate(360deg) scale(1.15) skew(10deg,10deg);
+	-webkit-transform:translate(150px,150px) rotate(360deg) scale(1.15) skew(10deg,10deg);
+  }

@@ -1,7 +1,18 @@
 /*Selectores*/
+/*0.-Directivas @*/
 /*1.-Etiquetas*/
 /*2.-Identificadores (IDS) */
 /*3.-Clases*/
+
+
+@font-face{
+
+	font-family: 'Coming Soon';
+	/*donde esta el archivo*/
+	src:url('fuentes/Coming_Soon/ComingSoon.ttf');
+}
+
+
 
 body   /*selector  - etiqueta*/
 {
@@ -47,9 +58,16 @@ header nav ul li{
 	border-radius: 5px; /*bordes redondeados*/
 	box-shadow: 3px 3px; /*sombra de los botones*/
 	display: inline-block; /*rompe modelo de caja*/
+	font-family: 'Open Sans', sans-serif;
 	padding: 3px 10px;  /*trabajando con los botones*/
 	margin: 0px 10px 50px 10px;	/*separando cajas*/
 	width: 80px; 		/*ancho del boton*/
+}
+header h1 {
+/*Se agrega la fuente a h1*/
+font-family: 'Roboto', sans-serif;
+
+
 }
 
 header nav ul li:hover{ 
@@ -66,8 +84,10 @@ main
 	margin: 20px 0px 0px 0px;
 }
 
+
 main section article
 {
+	font-family: 'Coming Soon';
 	/*border: 1px solid red;*/
 	display: inline-block;
 	vertical-align: top;
