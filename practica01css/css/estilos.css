@@ -1,0 +1,91 @@
+body
+{
+	border: 1px solid blue;
+	font-family: arial;
+	font-size: 16px; /*lem*/
+	margin: 0px auto; /*centramos la pagina*/
+	max-width: 1024px; /*ancho de pantalla*/
+}
+form
+{
+	float: right;
+	margin: -40px 20px 0px 0px;
+}
+
+form input[type="button"]
+{
+	background: green;
+	border-radius: 0px;
+	color: white;
+}
+
+header
+{
+	background: #B3D8EB; /*color de fondo*/
+}
+
+/*menu inicio,secciones*/
+header nav
+{
+	background: #0E6CB0;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 2px 0px 2px 0px;
+	width: 99%;
+
+}
+
+header nav ul li
+{
+	color: white;
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+}
+
+#logo
+{
+	float: left;
+	margin: -120px 0px 0px 0px;
+}
+
+#seccion01 article img
+{
+
+	border: 5px solid rgba(150,150,150,0.3); /*bordesito gris semitrasparente con alpha*/
+	margin: 15px 0px 0px 0px;		/*separando del menu*/
+}
+
+#seccion01 article
+{
+
+	text-align: center;  /*centrar todo dentro de la caja*/
+}
+
+#seccion02 
+{
+,
+	margin: 0 auto;
+}
+
+#seccion02 article
+{
+	display: inline-block; /*ALinear en la misma fila mientras quepa eb pantalla*/
+	width: 31%;		/*espacio designado para cada columna*/
+	vertical-align: top; /*para alinearlas arriba*/
+
+}
+
+.otraSeccion, .unaSeccion  	/*dos o mas selectores*/
+{
+	font-family: arial;		/*tipo de letra*/
+	font-weight: bold;  /*negritas*/
+}
+.unaSeccion
+{
+	font-size: 4.5em; 
+}
+
+.otraSeccion
+{
+	font-size: 2.5em;
+}
