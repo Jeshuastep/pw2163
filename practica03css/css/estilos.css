@@ -1,0 +1,21 @@
+body
+{
+
+	margin: 0 auto;
+	max-width: 1024px; /*decision de la empresa*/
+	min-height: 1024px; /*cancela movimiento de elementos*/
+
+}
+
+header nav ul li
+{
+
+	border-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+
+}
+
+/*darle color de fondo al header nav*/
