@@ -81,6 +81,12 @@ vertical-align: top;
 width: 24.5%
 }
 
+#terceraseccion article img
+{
+
+vertical-align: middle;
+
+}
 
 }
 #secc01art01
@@ -93,9 +99,54 @@ width: 24.5%
 	width: 30%;
 }
 
+#secc01art02 ul
+{
+	list-style: none;
+	padding-left: 20px;
+}
+
+#secc01art02 ul li:before
+{
+	content: "•";
+	color: #FF0099;
+	padding-right: 5px;
+	opacity: 0.3;
+}
+
+#mailinglist
+{
+	padding-top: 50px;
+}
+
+
 .colorrosa
 {
 	color: #FF0099; 
+}
+
+.colorrosa2
+{
+	color: #FF0099; 
+}
+.colorrosa3
+{
+	font-size: 1.5em;
+	color: #FF0099; 
+}
+.colorverde
+{
+	color: #A6DE46; 
+}
+
+.colorazul
+{
+	color: #16BEF8; 
+}
+
+.colorrosa,.colorverde,.colorazul
+{
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 .numerotelefono
