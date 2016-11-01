@@ -7,15 +7,163 @@ body
 
 }
 
-header nav ul li
+header nav
 {
-
-	border-bottom: 1px solid gray;
-	color: gray;
-	display: inline-block;
-	font-size: 1.8em;
-	margin-right: 15px;
+	background: #DD4812;
+	border-radius: 10px;
+	margin-top: 50px;
+	padding: 2px 0px 2px 0px;
+	width: 98%;
 
 }
 
-/*darle color de fondo al header nav*/
+header
+{
+	margin-top: 20px;
+
+}
+
+header nav ul li
+{
+	color: white;
+	display: inline-block;
+	margin: 2px 20px 0px 0px;
+}
+
+ #seccion1
+ {
+ 		width: 60%;
+		display: inline-block;
+		margin-top: 10px;
+
+
+ }
+
+  #seccion1 article
+ {
+		vertical-align: left;
+
+ }
+
+   #seccion1 article span
+ {
+
+		vertical-align: left;
+
+ }
+
+   #seccion2 article h3
+ {
+
+	background: #DD4812;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 10px 0px 10px 0px;
+	/*width: 90%;*/
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+
+ }
+
+ #seccion2 
+{
+	margin-left: 70px;
+	margin-top: 5px;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+		
+ }
+
+ #seccion2 article ul li
+{
+	margin-left: 15px;
+	padding-bottom: 2.5px;
+	width: 80%;
+	border-bottom-style: dotted;
+	border-width: 1px;
+		
+ }
+#img1
+{
+
+	margin: 30px 5px 0px 670px;
+}
+
+#img2, #img3
+{
+	width: 200px;
+	margin: 0px 5px 0px 0px;
+}
+
+#img4
+{
+
+	margin-top: 45PX;
+	border: 10px solid rgba(150,150,150,0.3)
+}
+
+#buscador
+{
+ 	
+ 	margin-left: 61px;
+}
+
+.post
+{
+	width: 100%
+}
+
+.tabla
+{
+	margin-left: 9px;
+}
+
+.slider
+{
+		margin: 15px 0px 0px 0px;		/*separando del menu*/
+		width: 59%;
+		padding-left: auto;
+
+ }
+
+.subtitulo 
+{
+
+	margin-left: 200px;
+	/*background: gray;
+	border-radius: 20px;*/
+/*	padding: 2px 0px 0px 0px;*/
+	/*width: 90%;*/
+	font-size: .9em;
+}
+.subtitulo span
+{
+	color: gray;
+	font-style: italic;
+}
+
+.texto
+{
+	margin-left: 200px;
+}
+
+ .title1
+{
+	margin-top: -230px;
+	vertical-align: top;
+	color: gray;
+	font-size: 1.55em;
+	font-weight: bold;
+
+}
+
+input[type=search] {
+/*-moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);    
+-webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);*/
+    height: 30px;
+    width: 200px;
+   border-radius: 20px;
+    
+}
