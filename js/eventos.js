@@ -4,7 +4,23 @@ var inicio = function() // Main
 {
 	var dameclic = function()
 	{
-		alert ("Le di click a un botón");
+
+
+					$.ajax({
+			  url: 'https://randomuser.me/api/',
+			  dataType: 'json',
+			  success: function(data) 
+
+			  {
+			  	$ ("#txtNombre").val(data.results[0].name.first+ " " +data.results[0].name.last);
+			  	$ ("#imgFoto").attr("src",data.results[0].picture.medium);
+
+			    console.log(data.results[0].name.first+ " " +data.results[0].name.last);
+
+			    // console.log(data.results[0].location.street+ "  " +data.results[0].location.city);
+			 	 }
+			});
+      
 	}
 	$("#dameClic").on("click",dameclic);
 
