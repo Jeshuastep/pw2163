@@ -12,9 +12,11 @@ var inicio = function() // Main
 			  success: function(data) 
 
 			  {
+			  	$ ("#imgFoto").show("slow");
+			  	$ ("#txtNombre").show("slow");
 			  	$ ("#txtNombre").val(data.results[0].name.first+ " " +data.results[0].name.last);
-			  	$ ("#imgFoto").attr("src",data.results[0].picture.medium);
-
+			  	$ ("#imgFoto").attr("src",data.results[0].picture.large); //cambiamos atributo src y le dimos ruta de la foto
+			  	$ ("#miArticle").html("Texto");
 			    console.log(data.results[0].name.first+ " " +data.results[0].name.last);
 
 			    // console.log(data.results[0].location.street+ "  " +data.results[0].location.city);

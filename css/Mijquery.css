@@ -1,0 +1,16 @@
+#imgFoto
+{
+	border-radius: 500px;
+}
+
+#txtNombre, #imgFoto
+{
+	display: none; /*se oculta*/
+
+}
+
+body
+{
+	text-align: center;
+	border-color: green;
+}
