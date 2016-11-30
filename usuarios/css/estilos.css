@@ -32,3 +32,10 @@ header nav ul li
 	width: 350px;
 	margin: 0 auto;
 }
+
+main article /*#artAltaUsuarios*/
+{
+	display: none;
+	width: 350px;
+	margin: 0 auto;
+}

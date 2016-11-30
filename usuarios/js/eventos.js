@@ -13,6 +13,7 @@ var inicioUsuarios = function()
 	
 
 		//validamos
+		alert("xd");
 
 		if (usuario!="" && clave!="") //Validamos que no estèn vacios
 		{
@@ -21,7 +22,7 @@ var inicioUsuarios = function()
 				type:"POST",
 				dataType:"json",
 				url: "php/utilerias.php",
-				data: parametros,
+				data:parametros,
 				succes: function (response) 
 				{
 				//si todo sale bien
@@ -36,7 +37,7 @@ var inicioUsuarios = function()
 						}
 
 				},
-				error: function(xhr, ajaxOptions, thrownError){
+				error:function(xhr,ajaxOptions,thrownError){
 					
 				}
 			});
@@ -47,6 +48,17 @@ var inicioUsuarios = function()
 		}
 	}
 	$("#btnValidaUsuario").on("click",validaUsuario);
+	var teclaClave = function(tecla)
+	{
+		if(tecla.which == 13)
+		{
+			validaUsuario(); //funcin que valida al usuario
+
+		}
+	}
+	//keypress: se ejecuta cada vez que presiono una 
+	//tecla sobre el input.
+	$("#txtClave").on("keypress",teclaClave);
 
 }
 

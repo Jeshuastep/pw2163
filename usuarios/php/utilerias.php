@@ -2,8 +2,7 @@
 
   //limpiar parametros contra ataques
 
-	function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
-{
+	function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") {
   $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
 
   $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
@@ -33,14 +32,14 @@
 	function validaUsuario()
 	{
     $respuesta = false;
-		$u = GetSQLValueString($_POST["usuario"],"text"); //limpieza
-		$c = GetSQLValueString($_POST["clave"]"text");
-		$conexion = mysql_connect("localhost", "root","");
-    mysql_connect("bd2163");
-		$consulta = sprintf("select usuario,clave from usuarios where usuario=%s and clave=%s limit 1",$u,$c); //pone parametros pendientes, s = string, d = numero (decimal)
+		$u = GetSQLValueString($_POST["usuario"], "text"); //limpieza
+		$c = GetSQLValueString($_POST["clave"], "text");
+		$conexion = mysql_connect("localhost","root","");
+    mysql_select_db("bd2163");
+		$consulta = sprintf("select usuario,clave from usuarios where usuario=%s and clave=%s limit 1", $u, $c); //pone parametros pendientes, s = string, d = numero (decimal)
     $resultado = mysql_query($consulta);
     //Esperamos un solo resultado
-    if (mysql_num_rows($resultado) == 1) 
+    if (mysql_num_rows($resultado) == 0) 
     {
      $respuesta = true;
     }
