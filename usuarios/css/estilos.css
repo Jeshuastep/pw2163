@@ -32,7 +32,10 @@ header nav ul li
 	width: 350px;
 	margin: 0 auto;
 }
-
+#artAltaUsuario
+{
+	
+}
 main article /*#artAltaUsuarios*/
 {
 	display: none;
